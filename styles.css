@@ -1,0 +1,682 @@
+:root {
+  --primary-color: #21a5d5;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-;
+}
+
+.top {
+  position: fixed !important;
+  width: 100%;
+  top: 0 !important;
+  background-color: white;
+  box-shadow: 0 1px 7px 2px lightgray;
+  z-index: 2222;
+}
+
+header,
+.left,
+.right,
+.mail,
+.location {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.98rem;
+}
+
+header {
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+.mail-text,
+.location-text {
+  color: white;
+}
+
+.right {
+  color: #63cef5;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  padding: 1rem;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  text-transform: capitalize;
+}
+
+nav button {
+  padding: 0.7rem;
+  border-radius: 40px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bolder;
+}
+
+.menu-icon {
+  font-size: 2rem;
+  display: none;
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63%;
+  margin: auto;
+}
+
+.left-section p {
+  font-size: 1.3rem;
+  color: rgb(50, 49, 49);
+}
+
+.left-section h2 {
+  font-size: 2rem;
+}
+
+.left-section button {
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  text-transform: capitalize;
+  align-self: flex-start;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.image-section {
+  background-image: url("https://simplexts.net/wp-content/uploads/2023/12/Untitled-design-10-1-1.png");
+  height: 80vh;
+  margin-top: -15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.image-section h2 {
+  font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+  background-color: white;
+  width: 50%;
+  color: gray;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.customers {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  padding: 3rem;
+}
+
+.right-customer {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.left-customer p {
+  font-size: 1.3rem;
+}
+
+.left-customer h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.left-customer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.services {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  color: white;
+}
+
+.service-cards {
+  width: 60%;
+  margin: auto;
+}
+
+.top-card,
+.bottom-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.s-card {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px 1px rgb(48, 48, 48);
+  color: gray;
+}
+
+.ecomm {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.top-ecomm {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  text-transform: uppercase;
+}
+
+.top-ecomm h3 {
+  padding: 1.5rem;
+  font-weight: lighter;
+}
+.top-ecomm h3:nth-child(1) {
+  border: 1px solid lightgray;
+
+  border-bottom: 1px solid white;
+  position: relative;
+  top: 1px;
+  color: var(--primary-color);
+}
+
+.bottom-ecomm {
+  padding: 1.5rem;
+  border: 1px solid lightgray;
+}
+
+.services2 {
+  width: 70%;
+  margin: 2rem auto;
+  margin-top: 3rem;
+}
+
+.service-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-1 i {
+  font-size: 3rem;
+}
+
+.services2 h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.service-heading h2 {
+  width: 30%;
+}
+.service-heading p {
+  font-size: 1.5rem;
+}
+
+.left-service-1 {
+  margin-top: 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.left-service-1 p {
+  font-size: 1.5rem;
+  color: #595959;
+}
+
+.left-service-2 {
+  order: 1;
+}
+
+.operations {
+  background-color: var(--primary-color);
+  clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 100%);
+  padding: 3rem;
+}
+
+.width {
+  width: 70%;
+  margin: auto;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.operation-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.operations p,
+li {
+  font-size: 1.2rem;
+}
+
+.operations p {
+  line-height: 1.5;
+}
+
+.operation1 {
+  display: flex;
+  justify-content: center;
+}
+
+.top-head {
+  text-align: center;
+}
+
+.operations ol {
+  margin-left: 2rem;
+}
+
+.feature {
+  font-size: 2rem;
+}
+
+.operations ol li {
+  font-size: 1rem !important;
+}
+
+.projects1 {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.projects1 p {
+  font-size: 1.5rem;
+  color: #595959;
+}
+.projects1 h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.images-project {
+  display: flex;
+  /* width: 30%; */
+  gap: 2rem;
+  margin: auto;
+}
+
+.color-section {
+  background-color: var(--primary-color);
+}
+
+.t-cards,
+.b-cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.container-section {
+  width: 60%;
+  margin: 2rem auto;
+  text-align: center;
+  color: white;
+  padding: 3rem;
+}
+
+.card1 {
+  margin: 1rem 0;
+  border-radius: 60px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.bottom-part {
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+.bottom-part h4 {
+  font-size: 1.5rem;
+  color: #595959;
+  font-weight: lighter;
+}
+
+/* for small pc screens */
+
+@media only screen and (max-width: 1200px) {
+  nav {
+    width: 95%;
+  }
+
+  .front {
+    width: 95%;
+  }
+
+  .customers {
+    width: 70%;
+  }
+
+  .service-cards {
+    width: 100%;
+  }
+}
+
+/* for tablets */
+
+@media only screen and (max-width: 1000px) {
+  nav ul {
+    display: none;
+  }
+  .cards {
+    width: 70%;
+  }
+
+  .customers {
+    /* width: 90%; */
+  }
+
+  .top-card,
+  .bottom-card {
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    /* gap: 2rem; */
+  }
+
+  .bottom-ecomm {
+    display: none;
+  }
+  .top-ecomm h3 {
+    border: 1px solid lightgray !important;
+    padding: 1rem;
+  }
+
+  .service-1 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .left-service-1,
+  .service-heading h2 {
+    width: 100%;
+  }
+
+  .services2 {
+    text-align: center;
+  }
+
+  .services2 h2 {
+    font-size: 2rem;
+  }
+  .services2 p {
+    font-size: 1rem;
+  }
+
+  .width {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .operation1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .operations {
+    padding: 0;
+    text-align: center;
+  }
+
+  .operation-text {
+    width: 100%;
+  }
+
+  .operations ol {
+    text-align: left;
+  }
+
+  .projects1 {
+    text-align: center;
+  }
+  .projects1 p {
+    font-size: 1rem;
+  }
+  .projects1 h2 {
+    font-size: 1.4rem;
+  }
+
+  .image2 {
+    display: none;
+  }
+
+  .container-section {
+    width: 90%;
+    padding: 1rem 0;
+  }
+
+  .t-cards,
+  .b-cards {
+    flex-direction: column;
+  }
+}
+
+/* for mobiles */
+
+@media only screen and (max-width: 750px) {
+  .left {
+    display: none;
+  }
+
+  header {
+    justify-content: flex-start;
+  }
+
+  nav {
+    width: 90%;
+    /* padding: 0; */
+    justify-content: space-between;
+  }
+
+  .items,
+  nav button {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .front {
+    flex-direction: column;
+  }
+
+  .left-section {
+    text-align: center;
+    width: 100%;
+  }
+
+  .left-section button {
+    align-self: center;
+  }
+
+  .front img {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+
+  .image-section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .image-section {
+    padding: 0;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  .customers {
+    flex-direction: column;
+    padding: 0;
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  .left-customer {
+    width: 90%;
+    text-align: center;
+  }
+  .left-customer h2 {
+    font-size: 2rem;
+  }
+
+  .left-customer p {
+    font-size: 1.3rem;
+  }
+
+  .right-customer {
+    width: 70%;
+  }
+
+  .s-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .s-card img {
+    width: 100px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .top-ecomm {
+    flex-direction: column;
+  }
+
+  .service-1 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .left-service-1,
+  .service-heading h2 {
+    width: 100%;
+  }
+
+  .services2 {
+    text-align: center;
+  }
+
+  .services2 h2 {
+    font-size: 2rem;
+  }
+  .services2 p {
+    font-size: 1rem;
+  }
+
+  .width {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .operation1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .operations {
+    padding: 0;
+    text-align: center;
+  }
+
+  .operation-text {
+    width: 100%;
+  }
+
+  .operations ol {
+    text-align: left;
+  }
+
+  .projects1 {
+    text-align: center;
+  }
+  .projects1 p {
+    font-size: 1rem;
+  }
+  .projects1 h2 {
+    font-size: 1.4rem;
+  }
+
+  .image2 {
+    display: none;
+  }
+
+  .container-section {
+    width: 90%;
+    padding: 1rem 0;
+  }
+
+  .t-cards,
+  .b-cards {
+    flex-direction: column;
+  }
+}
